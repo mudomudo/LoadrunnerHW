@@ -1,0 +1,8 @@
+"force=false&response_type=token&scope=https://www.googleapis.com/auth/calendar.readonly+https:"
+"//www.googleapis.com/auth/cast-edu-messaging+https://www.googleapis.com/auth/clouddevices+http"
+"s://www.googleapis.com/auth/hangouts+https://www.googleapis.com/auth/hangouts.readonly+https:/"
+"/www.googleapis.com/auth/meetings+https://www.googleapis.com/auth/plus.peopleapi.readwrite+htt"
+"ps://www.googleapis.com/auth/userinfo.email&enable_granular_permissions=false&client_id=919648"
+"714761-55j965o0km033psv3i9qls5mo3qtdrb0.apps.googleusercontent.com&origin=pkedcjkdefgpdelpbcmb"
+"meomcjbeemfm&lib_ver=86.0.4240.111&release_channel=stable&device_id=6796eba9-13db-4d04-8e4b-08"
+"98bce42c8d&device_type=chrome"

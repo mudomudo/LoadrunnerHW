@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Алексей\Documents\VuGen\Scripts\WebToursScriptRecorded
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\алексей\documents\vugen\scripts\webtoursscriptrecorded\\logfile.log
+c:\users\алексей\documents\vugen\scripts\webtoursscriptrecorded\\combined_WebToursScriptRecorded.c
+c:\users\алексей\documents\vugen\scripts\webtoursscriptrecorded\\pre_cci.c

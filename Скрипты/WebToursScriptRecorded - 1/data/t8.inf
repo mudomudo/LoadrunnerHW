@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8_do_ad_settings_allow_floc_poc.json
+URL1=https://adservice.google.com/settings/do_ad_settings_allow_floc_poc
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+FileName2=t8_Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCTfZQeCPfjGJEgkN541ADhIAGgASCQ3OQUx6EgAaAA==.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCTfZQeCPfjGJEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

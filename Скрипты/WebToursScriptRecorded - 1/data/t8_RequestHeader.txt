@@ -1,0 +1,11 @@
+GET /settings/do_ad_settings_allow_floc_poc HTTP/1.1
+Host: adservice.google.com
+Connection: keep-alive
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: NID=204=uP7i8ZIimziLekfbxBHlC4jmrS2gsw9WL_NOBe0Q7DkoL_pEYLRt43a3FNZW07wMvYgscssjO3PMdHFnMJXTuXuLORffyxnPxyTkvQxvyZ2BEC9UFzbwRVYq9FENtzEFrjhjdCKSxUm4WkhVSOH2mO4bUE4sEtdYkRYK_IHo32VERqdf2l0j8ac; SIDCC=AJi4QfE648JUu9vwY1z9dwBLAgdstzrmlUKp6jx0iybHrnsiw3X_m_Ll4Dvoa3QTdYivc-JI; __Secure-3PSIDCC=AJi4QfEJhSe5bjGhj-YxjzSWOJomEj27-LJruF1Cehhhp6Ngfq1OdqNxcnmok2vCcDSmKl78Xw
+
