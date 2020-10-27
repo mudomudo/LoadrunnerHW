@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Алексей\Documents\VuGen\Scripts\FirstTaskWebtours
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\алексей\documents\vugen\scripts\firsttaskwebtours\\logfile.log
+c:\users\алексей\documents\vugen\scripts\firsttaskwebtours\\combined_FirstTaskWebtours.c
+c:\users\алексей\documents\vugen\scripts\firsttaskwebtours\\pre_cci.c

@@ -1,0 +1,221 @@
+[API Trapper      (3054: d5c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 468:39ac)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (27b0:3144)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (27b0:335c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (27b0:335c)] Load Network Traffic Analyzers:
+[Network Analyzer (27b0:335c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (27b0:335c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (27b0:335c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (27b0:335c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (27b0:335c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (27b0:335c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (27b0:335c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (27b0:1a08)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 108.177.14.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (27b0: be4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (27b0:1a08)] "GET /WebTours/"   
+[Network Analyzer (27b0:1a08)]   (Sid:  2) Client -> Server @ : 540 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  2) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 64.233.162.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (27b0:1a08)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (27b0: be4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0: 4e8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:2988)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (27b0:1a08)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=86"   
+[Network Analyzer (27b0:1a08)]   (Sid:  1) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  1) Server -> Client : 697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0: 4e8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:2988)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (27b0:1a08)] "GET /WebTours/header.html"   
+[Network Analyzer (27b0:1a08)]   (Sid:  5) Client -> Server @ : 577 bytes (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (27b0:1a08)]   (Sid:  6) Client -> Server @ : 588 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  5) Server -> Client : 1008 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (27b0:1a08)]   (Sid:  5) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:1a08)]   (Sid:  5) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (27b0:1a08)]   (Sid:  6) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (27b0:1a08)]   (Sid:  7) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  7) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (27b0:1a08)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (27b0:1a08)]   (Sid:  6) Connection Terminated (by Server)
+[API Trapper      (2fdc:1cd0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 173.194.220.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (27b0:2dcc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 209.85.233.157:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 173.194.221.113:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (27b0:2dcc)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Web Request      (27b0:1a08)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Client -> Server @ : 629 bytes (Service=HTTP)
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (27b0:1a08)] "GET /WebTours/home.html"   
+[Network Analyzer (27b0:1a08)]   (Sid: 12) Client -> Server @ : 625 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 12) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1480)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Client -> Server @ : 511 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1480)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0:1c64)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:1c64)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (27b0:1a08)] "GET /favicon.ico"   
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 74.125.205.95:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (27b0:1a08)]   (Sid: 11) Connection Terminated (by Server)
+[API Trapper      (25c0: 9c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (27b0:2070)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:2070)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (27b0:1a08)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCTfZQeCPfjGJEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer (27b0:1a08)]   (Sid: 13) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 13) Server -> Client : 640 bytes (SSL) (Service=HTTP)
+[API Trapper      (3980:3030)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (27b0:1a08)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (27b0:1a08)]   (Sid: 14) Client -> Server @ : 879 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 14) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 173.194.222.188:5228   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 173.194.73.132:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Web Request      (27b0:1a08)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Client -> Server @ : 734 bytes (Service=HTTP)
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (27b0:1a08)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (27b0:1a08)]   (Sid: 19) Client -> Server @ : 729 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 19) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1fc0)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:1fc0)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 1745 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 15) Client -> Server @ : 155 bytes (SSL)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Client -> Server @ : 629 bytes (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 19) Client -> Server @ : 631 bytes (Service=HTTP)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:1a08)]   (Sid: 19) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (27b0:1a08)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 20) Client -> Server @ : 629 bytes (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Client -> Server @ : 629 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 20) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 15) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (27b0:3bf8)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:1a08)]   (Sid: 15) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (27b0:1a08)]   (Sid: 15) Server -> Client : 38 bytes (SSL)
+[Network Analyzer (27b0:1a08)]   (Sid: 15) Server -> Client : 400 bytes (SSL)
+[Network Analyzer (27b0:3bf8)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0: 450)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:1a08)]   (Sid: 15) Client -> Server @ : 589 bytes (SSL)
+[Network Analyzer (27b0: 450)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (27b0:1a08)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Client -> Server @ : 768 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Client -> Server @ : 751 bytes (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Client -> Server @ : 752 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Client -> Server @ : 637 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACesIHR01a_Z_EgkNVGIprRIAGgASCQ17ncSlEgAaABIJDR87OYUSABoAEgkN2oWZYRIAGgASCQ2pjkq9EgAaAA==?alt=proto"   
+[Network Analyzer (27b0:1a08)]   (Sid: 13) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Client -> Server @ : 635 bytes (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (27b0:1a08)]   (Sid: 20) Client -> Server @ : 629 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 20) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 13) Server -> Client : 663 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  1) Client -> Server @ : 584 bytes (SSL)(Service=HTTP)
+[Web Request      (27b0:1a08)] "POST /uma/v2"   
+[Network Analyzer (27b0:1a08)]   (Sid:  1) Client -> Server @ : 1946 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  1) Server -> Client : 615 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (27b0: ccc)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:1a08)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (27b0:1a08)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (27b0:1a08)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (27b0:1a08)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (27b0: ccc)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27b0:1a08)]   (Sid: 22) Client -> Server @ : 1170 bytes (SSL)(Service=HTTP)
+[Web Request      (27b0:1a08)] "POST /service/update2/json?cup2key=10:710744503&cup2hreq=94f243fac6c9268aeaf322908cd8a830aa6636de579dc05daf0696fd840a9558"   
+[Network Analyzer (27b0:1a08)]   (Sid: 22) Client -> Server @ : 6273 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 22) Server -> Client : 1297 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 22) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 22) Server -> Client : 104 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 22) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:3b34)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (27b0:3b34)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (27b0:1a08)] "GET /chrome/config/plugins_3/plugins_win.json"   
+[Network Analyzer (27b0:1a08)]   (Sid: 23) Client -> Server @ : 340 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 23) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 23) Server -> Client : 1224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (27b0:1a08)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Client -> Server @ : 1135 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Server -> Client : 2709 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Client -> Server @ : 769 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Client -> Server @ : 626 bytes (Service=HTTP)
+[Network Analyzer (27b0:335c)] Address lookup for DESKTOP-EQMP8L4 = 192.168.208.1
+[Network Analyzer (27b0:335c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (27b0:1a08)] "GET /WebTours/home.html"   
+[Network Analyzer (27b0:1a08)]   (Sid: 25) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer (27b0:1a08)]   (Sid: 25) Server -> Client : 194 bytes  (Service=HTTP)
