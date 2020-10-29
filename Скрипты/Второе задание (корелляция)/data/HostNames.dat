@@ -1,0 +1,8 @@
+[hosts]
+127.0.0.1=
+clientservices.googleapis.com=
+oauthaccountmanager.googleapis.com=
+content-autofill.googleapis.com=
+update.googleapis.com=
+www.gstatic.com=
+notification.adblockplus.org=

@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14.html
+URL1=http://127.0.0.1:1080/cgi-bin/reservations.pl
+Total=2
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=t14_RequestBody.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_14.xml
+FileName2=t14_bookanother.gif
+URL2=http://127.0.0.1:1080/WebTours/images/bookanother.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
