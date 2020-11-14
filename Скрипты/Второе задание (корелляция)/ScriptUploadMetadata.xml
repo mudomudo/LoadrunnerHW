@@ -19,6 +19,62 @@
     <FileEntry Name="login.dat" Filter="2" />
     <FileEntry Name="NewParam(1).dat" Filter="2" />
     <FileEntry Name="password.dat" Filter="2" />
+    <FileEntry Name="combined_Второе задание (корелляция).c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="120220677440.idx" Filter="1" />
+    <FileEntry Name="125465188440.idx" Filter="1" />
+    <FileEntry Name="12546518844_0QW.204.idx" Filter="1" />
+    <FileEntry Name="12546518844_3NE.532.idx" Filter="1" />
+    <FileEntry Name="12546518844_4Vj.212.idx" Filter="1" />
+    <FileEntry Name="12546518844_6Kn.956.idx" Filter="1" />
+    <FileEntry Name="12546518844_99d.44.idx" Filter="1" />
+    <FileEntry Name="12546518844_bmA.732.idx" Filter="1" />
+    <FileEntry Name="12546518844_bnH.238.idx" Filter="1" />
+    <FileEntry Name="12546518844_BPJ.998.idx" Filter="1" />
+    <FileEntry Name="12546518844_d2q.982.idx" Filter="1" />
+    <FileEntry Name="12546518844_d2x.40.idx" Filter="1" />
+    <FileEntry Name="12546518844_dey.334.idx" Filter="1" />
+    <FileEntry Name="12546518844_dRS.484.idx" Filter="1" />
+    <FileEntry Name="12546518844_Euy.908.idx" Filter="1" />
+    <FileEntry Name="12546518844_fhs.828.idx" Filter="1" />
+    <FileEntry Name="12546518844_H00.852.idx" Filter="1" />
+    <FileEntry Name="12546518844_iyk.846.idx" Filter="1" />
+    <FileEntry Name="12546518844_JI2.692.idx" Filter="1" />
+    <FileEntry Name="12546518844_NRT.702.idx" Filter="1" />
+    <FileEntry Name="12546518844_nXf.24.idx" Filter="1" />
+    <FileEntry Name="12546518844_UAp.42.idx" Filter="1" />
+    <FileEntry Name="12546518844_wW3.106.idx" Filter="1" />
+    <FileEntry Name="12546518844_XTo.386.idx" Filter="1" />
+    <FileEntry Name="12546518844_YCI.258.idx" Filter="1" />
+    <FileEntry Name="12546518844_Yug.320.idx" Filter="1" />
+    <FileEntry Name="157537520440.idx" Filter="1" />
+    <FileEntry Name="182843409440.idx" Filter="1" />
+    <FileEntry Name="18284340944_2Pa.997.idx" Filter="1" />
+    <FileEntry Name="18284340944_3aC.319.idx" Filter="1" />
+    <FileEntry Name="18284340944_3ZN.907.idx" Filter="1" />
+    <FileEntry Name="18284340944_7KE.483.idx" Filter="1" />
+    <FileEntry Name="18284340944_8pb.257.idx" Filter="1" />
+    <FileEntry Name="18284340944_a2i.211.idx" Filter="1" />
+    <FileEntry Name="18284340944_dmh.41.idx" Filter="1" />
+    <FileEntry Name="18284340944_DYD.845.idx" Filter="1" />
+    <FileEntry Name="18284340944_fLg.43.idx" Filter="1" />
+    <FileEntry Name="18284340944_fxR.981.idx" Filter="1" />
+    <FileEntry Name="18284340944_Ht6.237.idx" Filter="1" />
+    <FileEntry Name="18284340944_HYS.39.idx" Filter="1" />
+    <FileEntry Name="18284340944_Ioe.701.idx" Filter="1" />
+    <FileEntry Name="18284340944_jf5.333.idx" Filter="1" />
+    <FileEntry Name="18284340944_JGY.827.idx" Filter="1" />
+    <FileEntry Name="18284340944_Jz8.851.idx" Filter="1" />
+    <FileEntry Name="18284340944_Mnw.731.idx" Filter="1" />
+    <FileEntry Name="18284340944_Ngf.105.idx" Filter="1" />
+    <FileEntry Name="18284340944_Rul.23.idx" Filter="1" />
+    <FileEntry Name="18284340944_SMp.691.idx" Filter="1" />
+    <FileEntry Name="18284340944_TD7.203.idx" Filter="1" />
+    <FileEntry Name="18284340944_VoH.955.idx" Filter="1" />
+    <FileEntry Name="18284340944_wIo.531.idx" Filter="1" />
+    <FileEntry Name="18284340944_wOI.385.idx" Filter="1" />
+    <FileEntry Name="249765675440.idx" Filter="1" />
+    <FileEntry Name="64310771440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -35,6 +91,9 @@
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="WebHttpHtml2.prm.bak" Filter="1" />
+    <FileEntry Name="Второе задание (корелляция).c.pickle" Filter="1" />
+    <FileEntry Name="Второе задание (корелляция).ci" Filter="1" />
+    <FileEntry Name="Второе задание (корелляция).prm.bak" Filter="1" />
     <FileEntry Name="Второе задание (корелляция).sdf" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

@@ -13,7 +13,7 @@
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\VERSION.dll
 		4.8.4250.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\USER32.dll
-		10.0.19041.572 (WinBuild.160101.0800)C:\WINDOWS\System32\win32u.dll
+		10.0.19041.630 (WinBuild.160101.0800)C:\WINDOWS\System32\win32u.dll
 		14.10.25028.0 built by: VCTOOLSD15RTMC:\WINDOWS\SYSTEM32\VCRUNTIME140_CLR0400.dll
 		14.10.25028.0 built by: VCTOOLSD15RTMC:\WINDOWS\SYSTEM32\ucrtbase_clr0400.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\GDI32.dll
@@ -30,15 +30,15 @@
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\OLEAUT32.dll
 		4.8.4200.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System\a94f452eecde0f07e988ad14497426a5\System.ni.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Drawing\292491532cd5f50586e378cc6f62f970\System.Drawing.ni.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\b1347c731c62a2bffa8b15b2c5cfaeef\System.Windows.Forms.ni.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Core\8c6bf72770b92eaa245248616300f722\System.Core.ni.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Servf73e6522#\ac44198fc32882c7eef947d2cdb1d907\System.ServiceModel.Web.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\c53a93e360cdec5a6b2422401e7a8c32\System.Windows.Forms.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Core\2f1746ab1f00e550090146d74890c4ce\System.Core.ni.dll
+		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Servf73e6522#\443d18ac743a1c2f441e032de5754654\System.ServiceModel.Web.ni.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CRYPTSP.dll
 		10.0.19041.320 (WinBuild.160101.0800)C:\WINDOWS\system32\rsaenh.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\bcrypt.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.ServiceModel\7a4aafe0f7e09c4cc6c497dc560eb378\System.ServiceModel.ni.dll
-		4.8.4190.0 built by: NET48REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Configuration\ade5c2e4b2537b254ea41b3d743fdef2\System.Configuration.ni.dll
+		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.ServiceModel\8af060f70747c5a42bf5a05a1b985180\System.ServiceModel.ni.dll
+		4.8.4190.0 built by: NET48REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Configuration\1cc2deb740912c523a0155a5b0c5c7f6\System.Configuration.ni.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml\48fbd098873eae92cf4bda5b7cf7a6ba\System.Xml.ni.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\shell32.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\windows.storage.dll
@@ -46,25 +46,25 @@
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\SHCORE.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\profapi.dll
 		5.82 (WinBuild.160101.0800)   C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e\comctl32.dll
-		10.0.19041.572 (WinBuild.160101.0800)C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_4296d9128a9564c1\gdiplus.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsBase\00359ca24f0d0c417315ea525a3f0bd8\WindowsBase.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\PresentationCore\71b50bc60de4b8c052e9a5b1a7b79af2\PresentationCore.ni.dll
+		4.8.4270.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio5ae0f00f#\d15ddac8ada82d7c24bc4c5adc861335\PresentationFramework.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xaml\09314f84b0a7bec5fc70f721fa5b05b9\System.Xaml.ni.dll
+		10.0.19041.630 (WinBuild.160101.0800)C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.630_none_4294daf48a972df6\gdiplus.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DWrite.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\MSCTF.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsBase\6cd674497c3148ac82b01ccca2be0231\WindowsBase.ni.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\PresentationCore\386e07681bc12c8a5de0c8a476c8cb73\PresentationCore.ni.dll
-		4.8.4220.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio5ae0f00f#\177bb00bcc4906e15d25fe3e66c50714\PresentationFramework.ni.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xaml\10692973b8b832d2f969c99e96e35660\System.Xaml.ni.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\wpfgfx_v0400.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\wpfgfx_v0400.dll
 		14.10.25028.0 built by: VCTOOLSD15RTMC:\WINDOWS\SYSTEM32\MSVCP140_CLR0400.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\PresentationNative_v0400.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\PresentationNative_v0400.dll
 		2001.12.10941.16384 (WinBuild.160101.0800)C:\WINDOWS\System32\clbcatq.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\RegistryUtil.dll
 		14.24.28127.4 built by: vcwrkspcC:\WINDOWS\SYSTEM32\VCRUNTIME140.dll
 		14.24.28127.4 built by: vcwrkspcC:\WINDOWS\SYSTEM32\mfc140.dll
 		                              C:\WINDOWS\System32\TextShaping.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WindowsCodecs.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\textinputframework.dll
-		10.0.19041.546                C:\WINDOWS\System32\CoreMessaging.dll
+		10.0.19041.610 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\textinputframework.dll
 		10.0.19041.546                C:\WINDOWS\System32\CoreUIComponents.dll
+		10.0.19041.546                C:\WINDOWS\System32\CoreMessaging.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\WS2_32.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntmarta.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\wintypes.dll
@@ -75,38 +75,39 @@
 		10.0.19041.488 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\SspiCli.dll
 		7.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\PROPSYS.dll
 		4.8.4261.0 built by: NET48REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Security\43ac2ed4cebabe93c33ff5ab3aff71e2\System.Security.ni.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsForm0b574481#\47ceb8a4a4505b91ae297485b2ea3500\WindowsFormsIntegration.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsForm0b574481#\cf933c00c0ef2ec96634a94562aa0eac\WindowsFormsIntegration.ni.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DWMAPI.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\d3d9.dll
-		27.20.100.7989                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_bdd37d808cfdf045\igdumdim32.dll
-		27.20.100.7989                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_bdd37d808cfdf045\igd9dxva32.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\CFGMGR32.dll
-		27.20.100.7989                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_bdd37d808cfdf045\igdgmm32.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatioaec034ca#\32f36ae20baa767e88649ac19249ff33\PresentationFramework.Aero2.ni.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\UIAutomationTypes\82272b1f8f23d8360c9cfcb8ce875e1f\UIAutomationTypes.ni.dll
-		4.8.4220.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\UIAutomationProvider\396c5fd0e52bf25b12b8b34b051caecc\UIAutomationProvider.ni.dll
+		27.20.100.8682                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_2cec8fd58a80e6ea\igdumdim32.dll
+		27.20.100.8682                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_2cec8fd58a80e6ea\igd9dxva32.dll
+		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\SETUPAPI.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\cfgmgr32.dll
+		27.20.100.8682                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_2cec8fd58a80e6ea\igdgmm32.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatioaec034ca#\a81d76da54869a9af6dbcaac7e168224\PresentationFramework.Aero2.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\UIAutomationTypes\12a0b8a4c9e37033f96c2892b3b19eac\UIAutomationTypes.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\UIAutomationProvider\1fe1464b2cb159c9fbe49db59596be77\UIAutomationProvider.ni.dll
 		7.2.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\UIAutomationCore.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\mscms.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\USERENV.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ColorAdapterClient.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WindowsCodecsExt.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data.Entity\a669e9dc372585f8765af853e938c177\System.Data.Entity.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data.Entity\f2c8e59f788b0da47872a5edbc51a156\System.Data.Entity.ni.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\system32\dataexchange.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\system32\d3d11.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\system32\dcomp.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\system32\dxgi.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\system32\dcomp.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\twinapi.appcore.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\sxs.dll
 		12.55.857.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\RecentScripts.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mosifs32.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\thrdutil.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\wrapicu.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\thrdutil.dll
 		55, 1, 0, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\icuuc55.dll
 		11.00.51106.1 built by: Q11RELC:\WINDOWS\SYSTEM32\MSVCR110.dll
 		11.00.51106.1 built by: Q11RELC:\WINDOWS\SYSTEM32\MSVCP110.dll
 		55, 1, 0, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\icudt55.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Web\726ecf76b2dca7178c87a6704c403371\System.Web.ni.dll
+		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Web\21c3dfc5500d46cdaca3c8fd49129f5e\System.Web.ni.dll
 		4.8.4250.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\webengine4.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\SnapshotLoaderWrap.dll
 		12.55.646.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ViewerGen.dll
@@ -124,40 +125,40 @@
 		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\NETAPI32.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\WKSCLI.DLL
 		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\NETUTILS.DLL
-		10.0.19041.572 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\policymanager.dll
+		10.0.19041.610 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\policymanager.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msvcp110_win.dll
-		11.00.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msIso.dll
+		11.00.19041.630 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msIso.dll
 		11.00.19041.561 (WinBuild.160101.0800)C:\Windows\System32\mshtml.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\powrprof.dll
 		                              C:\WINDOWS\SYSTEM32\UMPDC.dll
 		11.00.19041.561 (WinBuild.160101.0800)C:\Windows\System32\WININET.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\srpapi.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\CRYPT32.dll
-		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\mlang.dll
-		12.55.646.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ielpview.dll
-		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\AsmHook.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rasapi32.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rasman.dll
-		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\VirFileSystemMng.dll
 		10.0.19041.320 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rtutils.dll
-		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\VirPrivateProfiles.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\mswsock.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\NSI.dll
+		10.0.19041.610 (WinBuild.160101.0800)C:\WINDOWS\System32\NSI.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DNSAPI.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINNSI.DLL
 		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\rasadhlp.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Accessibility\5dcee18d360215a93e0e8b76b6c4fce3\Accessibility.ni.dll
+		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\mlang.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\fwpuclnt.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\secur32.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\schannel.dll
+		12.55.646.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ielpview.dll
+		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\AsmHook.dll
 		14.8.4084.0 built by: NET48REL1C:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll
+		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\VirFileSystemMng.dll
+		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\VirPrivateProfiles.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Accessibility\5dcee18d360215a93e0e8b76b6c4fce3\Accessibility.ni.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\msimtf.dll
 		3.10.349.0                    C:\Windows\System32\msls31.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\d2d1.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio1c9175f8#\52b3c8c339c6fd75c00d38eb827ec88a\PresentationFramework.Aero.ni.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\d3d10warp.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio1c9175f8#\984c89273912b28134525af363e78880\PresentationFramework.Aero.ni.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dxcore.dll
 		5.31.23.1231                  C:\WINDOWS\SYSTEM32\RichEd20.DLL
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\USP10.dll
@@ -166,8 +167,8 @@
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\apphelp.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\msctfui.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\explorerframe.dll
-		                              C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_bdd37d808cfdf045\igdinfo32.dll
-		27.20.100.7989                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_bdd37d808cfdf045\igc32.dll
+		                              C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_2cec8fd58a80e6ea\igdinfo32.dll
+		27.20.100.8682                C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_2cec8fd58a80e6ea\igc32.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\D3DCOMPILER_47.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINMM.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
@@ -175,7 +176,7 @@
 		10.0.19041.1 (WinBuild.160101.0800)C:\WINDOWS\system32\IconCodecService.dll
 		20.169.0823.0008              C:\Users\Алексей\AppData\Local\Microsoft\OneDrive\20.169.0823.0008\FileSyncShell.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\HP.LR.VuGen.VugenIconOverlayHandler.dll
-		3.2.0.1511                    C:\Users\Алексей\AppData\Roaming\Yandex\YandexDisk2\3.2.0.4105\wow64\YandexDisk3ShellExt-1511.dll
+		3.2.1.1511                    C:\Users\Алексей\AppData\Roaming\Yandex\YandexDisk2\3.2.1.4113\wow64\YandexDisk3ShellExt-1511.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MSIMG32.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MPR.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\drprov.dll
@@ -183,38 +184,39 @@
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\davclnt.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\DAVHLPR.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\dlnashext.dll
+		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\PlayToDevice.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\DevDispItemProvider.dll
+		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\MMDevApi.dll
 		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\DEVOBJ.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\wpdshext.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\PortableDeviceApi.dll
-		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\System32\SETUPAPI.dll
-		10.0.19041.572 (WinBuild.160101.0800)C:\WINDOWS\System32\WINTRUST.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\MSASN1.dll
+		10.0.19041.630 (WinBuild.160101.0800)C:\WINDOWS\System32\WINTRUST.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MSASN1.dll
 		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\system32\audiodev.dll
 		12.0.19041.488 (WinBuild.160101.0800)C:\WINDOWS\system32\WMVCore.DLL
-		12.0.19041.1 (WinBuild.160101.0800)C:\WINDOWS\system32\WMASF.DLL
 		10.0.19041.1 (WinBuild.160101.0800)C:\WINDOWS\system32\mfperfhelper.dll
+		12.0.19041.1 (WinBuild.160101.0800)C:\WINDOWS\system32\WMASF.DLL
 		10.0.19041.320 (WinBuild.160101.0800)C:\Windows\System32\Windows.FileExplorer.Common.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.Build\54a19ef72f58eeb116e831e043a5d17e\Microsoft.Build.ni.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.B3325a29b#\10ccd778c69c0809eede19d907b8434b\Microsoft.Build.Framework.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.Build\8e4fe279272c47fe110a7a921696de84\Microsoft.Build.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.B3325a29b#\bdc6e8eea12b793a3babcd3b48f81b41\Microsoft.Build.Framework.ni.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\coparamui.dll
-		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramui.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\PathResolver.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\dtable32.dll
-		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lr_vug32.dll
+		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramui.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\parameng.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\dtable32.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\is32.dll
 		14.24.28127.4 built by: vcwrkspcC:\WINDOWS\SYSTEM32\MSVCP140.dll
+		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lr_vug32.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\msg_handler.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\config.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mlib_ds.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\config.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\libxdrutil.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\run_time_context.dll
-		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\inifile.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\runlogic.dll
-		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\vusercfg.dll
+		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\inifile.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\MultiVuser.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\xdr.dll
+		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\vusercfg.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\rtc_protocol.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\comm_util.dll
 		24, 3, 0, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\BCGCBPRO2430140.dll
@@ -226,8 +228,8 @@
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramlr.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramtbl.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mmdtable.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mmdbigtable.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\libmemmap.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mmdbigtable.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramcst.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramunq.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramfnc.dll
@@ -235,11 +237,11 @@
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramdte.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramvar.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\paramrnd.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml.Linq\bf71a163559ee983fa7ec199eb49c6e0\System.Xml.Linq.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml.Linq\c0e32ab5785c5df139bab7755ccf80a0\System.Xml.Linq.ni.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ArchiveManager.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\runlogicview.ocx
-		4.8.4261.0 built by: NET48REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data\83f903efa41d6079639970e2e77b5fb0\System.Data.ni.dll
-		4.8.4261.0 built by: NET48REL1LAST_BC:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data\d8fe2a79f86965513da40c46c0a46250\System.Data.ni.dll
+		4.8.4270.0 built by: NET48REL1LAST_CC:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ParamUINotification.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Transactions\c9d529b46bba50153f7fd0949870003b\System.Transactions.ni.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll
@@ -252,17 +254,17 @@
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Ente96d83b35#\4bc741bb63267e8bc33dfa8a6780af93\System.EnterpriseServices.Wrapper.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.Wrapper.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Numerics\02b32cda50b2d3182cabb8fb1fd6e19d\System.Numerics.ni.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data86569bbf#\a917e60a1917198e4c7818a20cac1bec\System.Data.OracleClient.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data86569bbf#\2dbc07a6d591eea7e9e00d761e6f9ec1\System.Data.OracleClient.ni.dll
 		4.8.4084.0 built by: NET48REL1C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data.OracleClient\v4.0_4.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\HP.LR.VuGen.ScriptHandlerComWrapper.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\057fdba5f90c03cf157255231bc2d11e\System.Runtime.Serialization.ni.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lrscripthandler.DLL
+		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\057fdba5f90c03cf157255231bc2d11e\System.Runtime.Serialization.ni.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\webscripthandler.DLL
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebStepClsShared.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebStepClsDesign.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\DynWininet.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mshtmtr.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\wraplwcrypto.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\DynWininet.dll
 		3, 6, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icuuc36.dll
 		3, 6, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icudt36.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrXmlScriptHandler.DLL
@@ -275,47 +277,116 @@
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\webservice_scripthandler.DLL
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ServiceManagementLight.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WSDLSDK.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\XmlParserInterface.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\SoapRecordFilter.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebServicesSDK.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrJni.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\XmlParserInterface.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WSDLParser.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\SoapRecordFilter.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WSDLUtilsU.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WsCommonLogger.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mic_regex.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ConfigurationUtil.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\HttpUtils.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WSDLParser.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\mic_regex.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\MicXMLDiffTool.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WSDLToolkits.dll
-		3, 1, 2, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\xerces-c_3_1.dll
 		1, 11, 1, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\Xalan-C_1_11.dll
+		3, 1, 2, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\xerces-c_3_1.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WSDLToolkits.dll
 		                              C:\Program Files (x86)\HPE\LoadRunner\bin\XalanMessages_1_11.dll
 		55, 1, 0, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\icuin55.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\soap_scripthandler.DLL
-		4.8.4084.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.CSharp\0362ef5a71dac18d969204a7e64c2a8e\Microsoft.CSharp.ni.dll
-		4.8.4084.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Dynamic\bb5a76b2b000cf1641df28488ae820a4\System.Dynamic.ni.dll
+		4.8.4084.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.CSharp\87eaad12f76f37670d4398348ab38b05\Microsoft.CSharp.ni.dll
+		4.8.4084.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Dynamic\f993b88a5a9944cff4f29bcc5ff23e75\System.Dynamic.ni.dll
 		0.22.0                        C:\Program Files (x86)\HPE\LoadRunner\bin\NativeBinaries\x86\git2-a56db99.DLL
-		12.52.6851.0                  C:\WINDOWS\System32\ShellHook.dll
-		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\edputil.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\OneCoreCommonProxyStub.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\OneCoreUAPCommonProxyStub.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\SMDiagnostics\209e0fc2e8af5b67aac0e1c3528a6c38\SMDiagnostics.ni.dll
-		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Servd1dec626#\00755bb97c3f52efed73e835a26aea6a\System.ServiceModel.Internals.ni.dll
-		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\HP.LR.VuGen.LrVugHelper.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\TextContainer.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\coml2.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebObjects4Vugen.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ExtInfra.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lrun50.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\trans.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\faserver.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\merc_uuid.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\wrapzlib.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwScriptApi.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lr_exp.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\pcre-8.10.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\trans_server.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ipng_utils.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\libdatatypes.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\data_types_ifs.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwCs.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwLogicMgr.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwSrvNet.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwObjMgr.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwUtil.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\vm.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\jrequestor_srv.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\dc_requests.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\timediff_ext.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwiWebInfra.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\VnpUtils.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\DataFormatsEngine.dll
+		6.1.0017.2 (DbgBuild.030121-2003)C:\Program Files (x86)\HPE\LoadRunner\bin\dbghelp.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\DomFactory.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwSnapshotsWriter.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwJsForTransport.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwiHtmlParser.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwiStreamingParser.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwJsw.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwReport.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JScriptEngine.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\jsext.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwWebSocketEngine.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_system-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_regex-vc140-mt-1_60.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\http_auth.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_filesystem-vc140-mt-1_60.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrJson.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrXml.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebSnapshotsCommon.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\VnpReport.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JSHostedEnvironment.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_thread-vc140-mt-1_60.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JsonParser.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\duktape.dll
+		1.0.2d                        C:\Program Files (x86)\HPE\LoadRunner\bin\libeay32_lt.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_chrono-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\mozjs.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\v8.dll
+		4.8.9                         C:\Program Files (x86)\HPE\LoadRunner\bin\nspr4.dll
+		2, 0, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icuuc20.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\icui18n.dll
+		2, 0, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icudt20.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\icuuc.dll
+		1, 10, 0, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\Xalan-C_1_10Mic.dll
+		3, 6, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icuin36.dll
+		2, 7, 0                       C:\Program Files (x86)\HPE\LoadRunner\bin\xerces-c_2_7.dll
+		                              C:\Program Files (x86)\HPE\LoadRunner\bin\XalanMessages_1_10.DLL
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\Windows.StateRepositoryPS.dll
 		1, 0, 0, 1                    C:\Program Files (x86)\HPE\LoadRunner\bin\coparamui_format.dll
 		3.05.2284                     C:\WINDOWS\SYSTEM32\ATL.DLL
 		6.06.8063.0                   C:\WINDOWS\SYSTEM32\MFC42.DLL
+		12.52.6851.0                  C:\WINDOWS\System32\ShellHook.dll
+		10.0.19041.561 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\edputil.dll
+		10.0.19041.610 (WinBuild.160101.0800)C:\Windows\System32\OneCoreCommonProxyStub.dll
+		10.0.19041.610 (WinBuild.160101.0800)C:\Windows\System32\OneCoreUAPCommonProxyStub.dll
+		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\SMDiagnostics\209e0fc2e8af5b67aac0e1c3528a6c38\SMDiagnostics.ni.dll
+		4.8.4250.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Servd1dec626#\00755bb97c3f52efed73e835a26aea6a\System.ServiceModel.Internals.ni.dll
+		4.8.4084.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Comp46f2b404#\2e9dc8fc68008eaf7b07939fb80f57d8\System.ComponentModel.DataAnnotations.ni.dll
+		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\HP.LR.VuGen.LrVugHelper.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\TextContainer.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\coml2.dll
+		11.00.19041.561 (WinBuild.160101.0800)C:\Windows\System32\jscript9.dll
+		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\vaultcli.dll
+		10.0.19041.320 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\windows.globalization.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\bcp47mrm.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ondemandconnroutehelper.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\UIAnimation.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\vugen_record_api.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\insp_gen.dll
-		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\pefile.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\inspdll.dll
+		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\pefile.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\HTTPSnapshotsWrapper.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\wrapzlib.dll
+		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\Api_Filter_Helper.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\script_language_helper.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\api_scrinfo.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\Api_Filter_Helper.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\unknown_only_helper.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\type_info_pool.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\CodeGenerationAPI.dll
@@ -324,84 +395,11 @@
 		                              C:\Program Files (x86)\HPE\LoadRunner\bin\WebEventTrafficMap.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\VuGenCallback.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\traffic_filter.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\pcre-8.10.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ipng_utils.dll
-		1.0.2d                        C:\Program Files (x86)\HPE\LoadRunner\bin\libeay32_lt.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lrun50.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\trans.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\merc_uuid.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\faserver.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\duktape.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JsonParser.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lr_exp.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\trans_server.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\libdatatypes.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\data_types_ifs.dll
-		6.1.0017.2 (DbgBuild.030121-2003)C:\Program Files (x86)\HPE\LoadRunner\bin\dbghelp.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\timediff_ext.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\jrequestor_srv.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\dc_requests.dll
 		1.0.2d                        C:\Program Files (x86)\HPE\LoadRunner\bin\ssleay32_lt.dll
 		12.55.415.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ThreadSafeFileOperator.dll
 		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\TulipAppInfo.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JsonParserWrapper.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\MicSocket.dll
-		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\Windows.ApplicationModel.dll
-		4.8.4084.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runt0d283adf#\d3c2b9ea8dfc75758b36d65d0c336ee1\System.Runtime.WindowsRuntime.ni.dll
-		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\twinapi.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ondemandconnroutehelper.dll
-		11.00.19041.561 (WinBuild.160101.0800)C:\Windows\System32\jscript9.dll
-		10.0.19041.561 (WinBuild.160101.0800)C:\Windows\System32\vaultcli.dll
-		10.0.19041.320 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\windows.globalization.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\bcp47mrm.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\System32\UIAnimation.dll
-		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\SSFMgrWrapper.dll
-		12.0.135.0                    C:\Program Files (x86)\HPE\LoadRunner\bin\RealFileSystem.dll
-		10.0.19041.546 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\icm32.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebObjects4Vugen.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwScriptApi.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\ExtInfra.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwLogicMgr.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwCs.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwiWebInfra.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwObjMgr.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwUtil.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwSrvNet.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\vm.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\VnpUtils.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\DataFormatsEngine.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwSnapshotsWriter.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwiStreamingParser.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\DomFactory.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwJsw.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwJsForTransport.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\http_auth.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrXml.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrJson.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JScriptEngine.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwiHtmlParser.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\jsext.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwReport.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_filesystem-vc140-mt-1_60.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_system-vc140-mt-1_60.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\LrwWebSocketEngine.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_regex-vc140-mt-1_60.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebSnapshotsCommon.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\JSHostedEnvironment.dll
-		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\VnpReport.dll
-		1, 10, 0, 0                   C:\Program Files (x86)\HPE\LoadRunner\bin\Xalan-C_1_10Mic.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\v8.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_thread-vc140-mt-1_60.dll
-		2, 0, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icuuc20.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\mozjs.dll
-		2, 7, 0                       C:\Program Files (x86)\HPE\LoadRunner\bin\xerces-c_2_7.dll
-		3, 6, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icuin36.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\icuuc.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\icui18n.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\boost_chrono-vc140-mt-1_60.dll
-		2, 0, 0, 0                    C:\Program Files (x86)\HPE\LoadRunner\bin\icudt20.dll
-		4.8.9                         C:\Program Files (x86)\HPE\LoadRunner\bin\nspr4.dll
-		                              C:\Program Files (x86)\HPE\LoadRunner\bin\XalanMessages_1_10.DLL
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\api_inspector.dll
 		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\trpfnc32.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\lrc_basic_filters.dll
@@ -413,10 +411,10 @@
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebHTMLCodeGen.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebRecorder.dll
 		2.9.0                         C:\Program Files (x86)\HPE\LoadRunner\bin\cpprest140_2_9.dll
-		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\jconv_str.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebCorrelation.dll
-		14.24.28127.4 built by: vcwrkspcC:\WINDOWS\SYSTEM32\CONCRT140.dll
+		12.55.639.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\jconv_str.dll
 		10.0.19041.320 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\HTTPAPI.dll
+		14.24.28127.4 built by: vcwrkspcC:\WINDOWS\SYSTEM32\CONCRT140.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebConvertFromFormattedFilter.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebConvertFromFormattedPostFilter.dll
 		12.55.911.0                   C:\Program Files (x86)\HPE\LoadRunner\bin\WebExtractServerNameFilter.dll

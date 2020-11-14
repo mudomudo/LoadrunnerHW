@@ -21,7 +21,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t38.inf", 
+		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -40,10 +40,10 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
-	lr_think_time(9);
+	lr_think_time(17);
 
 	web_submit_form("login.pl", 
-		"Snapshot=t39.inf", 
+		"Snapshot=t2.inf", 
 		ITEMDATA, 
 		"Name=username", "Value=jojo", ENDITEM, 
 		"Name=password", "Value=bean", ENDITEM, 
@@ -55,37 +55,35 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
+	lr_think_time(4);
+
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
-		"Snapshot=t40.inf", 
+		"Snapshot=t3.inf", 
 		LAST);
 
 	web_add_auto_header("Origin", 
 		"http://127.0.0.1:1080");
 
-	lr_think_time(20);
-
 	web_submit_form("reservations.pl", 
-		"Snapshot=t41.inf", 
+		"Snapshot=t4.inf", 
 		ITEMDATA, 
 		"Name=depart", "Value=London", ENDITEM, 
-		"Name=departDate", "Value=10/30/2020", ENDITEM, 
+		"Name=departDate", "Value=11/14/2020", ENDITEM, 
 		"Name=arrive", "Value=Paris", ENDITEM, 
-		"Name=returnDate", "Value=10/31/2020", ENDITEM, 
+		"Name=returnDate", "Value=11/15/2020", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=roundtrip", "Value=<OFF>", ENDITEM, 
-		"Name=seatPref", "Value=Window", ENDITEM, 
+		"Name=seatPref", "Value=Aisle", ENDITEM, 
 		"Name=seatType", "Value=First", ENDITEM, 
 		LAST);
 
-	lr_think_time(4);
-
 	web_submit_form("reservations.pl_2", 
-		"Snapshot=t42.inf", 
+		"Snapshot=t5.inf", 
 		ITEMDATA, 
-		"Name=outboundFlight", "Value=241;181;10/30/2020", ENDITEM, 
-		"Name=reserveFlights.x", "Value=55", ENDITEM, 
-		"Name=reserveFlights.y", "Value=14", ENDITEM, 
+		"Name=outboundFlight", "Value=240;204;11/14/2020", ENDITEM, 
+		"Name=reserveFlights.x", "Value=60", ENDITEM, 
+		"Name=reserveFlights.y", "Value=10", ENDITEM, 
 		LAST);
 
 	web_revert_auto_header("Origin");
@@ -97,16 +95,18 @@ Action()
 	web_add_header("Origin", 
 		"http://127.0.0.1:1080");
 
+	lr_think_time(11);
+
 	web_submit_form("reservations.pl_3", 
-		"Snapshot=t43.inf", 
+		"Snapshot=t6.inf", 
 		ITEMDATA, 
 		"Name=firstName", "Value=Jojo", ENDITEM, 
 		"Name=lastName", "Value=Bean", ENDITEM, 
 		"Name=address1", "Value=", ENDITEM, 
 		"Name=address2", "Value=", ENDITEM, 
 		"Name=pass1", "Value=Jojo Bean", ENDITEM, 
-		"Name=creditCard", "Value=1231241231231", ENDITEM, 
-		"Name=expDate", "Value=1322", ENDITEM, 
+		"Name=creditCard", "Value=1231241", ENDITEM, 
+		"Name=expDate", "Value=1231", ENDITEM, 
 		"Name=saveCC", "Value=<OFF>", ENDITEM, 
 		LAST);
 
@@ -118,7 +118,7 @@ Action()
 
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
-		"Snapshot=t44.inf", 
+		"Snapshot=t7.inf", 
 		LAST);
 
 	return 0;

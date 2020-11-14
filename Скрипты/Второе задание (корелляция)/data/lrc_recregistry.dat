@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\Алексей\Documents\VuGen\Scripts\WebHttpHtml2\data\
+		default	X:\Проекты\LoadrunnerHW\Скрипты\Второе задание (корелляция)\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly
