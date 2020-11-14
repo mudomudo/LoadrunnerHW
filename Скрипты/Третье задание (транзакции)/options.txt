@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IX:\ѕроекты\LoadrunnerHW\—крипты\¬торое задание (корелл€ци€)
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ex:\проекты\loadrunnerhw\скрипты\второе задание (корелл€ци€)\\logfile.log
+x:\проекты\loadrunnerhw\скрипты\второе задание (корелл€ци€)\\combined_¬торое задание (корелл€ци€).c
+x:\проекты\loadrunnerhw\скрипты\второе задание (корелл€ци€)\\pre_cci.c

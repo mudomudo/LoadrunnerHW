@@ -51,9 +51,15 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="getWebtours__*delimiter*__login__*delimiter*__searchFlights__*delimiter*__chooseFlight__*delimiter*__enterUserData"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
+[Transactions]
+getWebtours=
+login=
+searchFlights=
+chooseFlight=
+enterUserData=

@@ -2597,7 +2597,8 @@ vuser_init()
 Action()
 {
 
-	web_add_auto_header("Sec-Fetch-Site", 
+	lr_start_transaction("getWebtours");
+web_add_auto_header("Sec-Fetch-Site", 
 		"none");
 
 	web_add_auto_header("Sec-Fetch-Dest", 
@@ -2637,6 +2638,13 @@ Action()
 		"same-origin");
 
 	lr_think_time(17);
+	
+	lr_end_transaction("getWebtours", 2);
+	
+	
+	
+	lr_start_transaction("login");
+
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2652,6 +2660,10 @@ Action()
 		"1");
 
 	lr_think_time(4);
+	
+	lr_end_transaction("login", 2);
+
+lr_start_transaction("searchFlights");
 
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
@@ -2660,6 +2672,9 @@ Action()
 
 	web_add_auto_header("Origin", 
 		"http://127.0.0.1:1080");
+		
+		
+
 	
 	web_reg_save_param_regexp(
 		"ParamName=outbondFlight",
@@ -2683,6 +2698,11 @@ Action()
 		"Name=findFlights.x","Value=65", "ENDITEM",
 		"Name=findFlights.y","Value=10", "ENDITEM",
 		"LAST");
+		
+		lr_end_transaction("searchFlights", 2);
+		
+		lr_start_transaction("chooseFlight");
+
 
 	web_submit_form("reservations.pl_2", 
 		"Snapshot=t5.inf", 
@@ -2700,6 +2720,12 @@ Action()
 
 	web_add_header("Origin", 
 		"http://127.0.0.1:1080");
+	
+	lr_end_transaction("chooseFlight", 2);
+
+	lr_start_transaction("enterUserData");
+
+
 
 	lr_think_time(11);
 
@@ -2721,6 +2747,9 @@ Action()
 
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
+	
+	lr_end_transaction("enterUserData", 2);
+
 
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
