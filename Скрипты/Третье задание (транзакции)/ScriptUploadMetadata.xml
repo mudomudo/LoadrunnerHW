@@ -18,7 +18,21 @@
     <FileEntry Name="class.dat" Filter="2" />
     <FileEntry Name="login.dat" Filter="2" />
     <FileEntry Name="NewParam(1).dat" Filter="2" />
+    <FileEntry Name="name.dat" Filter="2" />
     <FileEntry Name="password.dat" Filter="2" />
+    <FileEntry Name="combined_Третье задание (транзакции).c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="162727485440.idx" Filter="1" />
+    <FileEntry Name="238368281440.idx" Filter="1" />
+    <FileEntry Name="239023001440.idx" Filter="1" />
+    <FileEntry Name="247029135440.idx" Filter="1" />
+    <FileEntry Name="33019960440.idx" Filter="1" />
+    <FileEntry Name="60803867440.idx" Filter="1" />
+    <FileEntry Name="93851377440.idx" Filter="1" />
+    <FileEntry Name="9385137744_FUj.583.idx" Filter="1" />
+    <FileEntry Name="9385137744_kN4.495.idx" Filter="1" />
+    <FileEntry Name="9385137744_UgM.721.idx" Filter="1" />
+    <FileEntry Name="9385137744_wZG.55.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -36,6 +50,9 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="WebHttpHtml2.prm.bak" Filter="1" />
     <FileEntry Name="Второе задание (корелляция).prm.bak" Filter="1" />
+    <FileEntry Name="Третье задание (транзакции).c.pickle" Filter="1" />
+    <FileEntry Name="Третье задание (транзакции).ci" Filter="1" />
+    <FileEntry Name="Третье задание (транзакции).prm.bak" Filter="1" />
     <FileEntry Name="Третье задание (транзакции).sdf" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

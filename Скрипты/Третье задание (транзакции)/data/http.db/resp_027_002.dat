@@ -1,0 +1,527 @@
+body
+{
+	background: #FFFFFF;
+	color: #000000;
+	font: 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #35679A;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #35679A;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #35679A;
+	text-decoration: none;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 8pt tahoma;
+}
+.tborder
+{
+	background: #dae1e8;
+	color: #000000;
+	border: 0px solid #0B198C;
+}
+.tcat
+{
+	background: #dae2e8;
+	color: #35679A;
+	font: bold 9pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	cursor: pointer;
+	border-top-color: #cccccc;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #35679A;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #35679A;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #35679A;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #eeeeee;
+	color: #35679A;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top-color: #3b5998;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.thead a:link, .thead_alink
+{
+	color: #35679A;
+	text-decoration: none;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #35679A;
+	text-decoration: none;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #35679A;
+	text-decoration: underline;
+}
+.tfoot
+{
+	background: #32608a url(//vkopt.net/forum/images/vkopt/gradients/logo_bg.gif);
+	color: #35679A;
+	font: 9pt tahoma;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #FFFFFF;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #FFFFFF;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #C9C9E1;
+	text-decoration: underline;
+}
+.alt1, .alt1Active
+{
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 8pt;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #3F579D;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #3F579D;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
+{
+	color: #3F579D;
+	text-decoration: underline;
+}
+.alt2, .alt2Active
+{
+	background: #EEEEEE;
+	color: #000000;
+	font: 8pt tahoma;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #3F579D;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #3F579D;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
+{
+	color: #3F579D;
+	text-decoration: underline;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #3F579D;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #3F579D;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #3F579D;
+	text-decoration: underline;
+}
+textarea, .bginput
+{
+	font: 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 8pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	background: #35679A;
+	color: #FFFFFF;
+	font: 8pt tahoma;
+	height: 23px;
+	border: 1px solid #FFFFFF;
+	border: 1px outset;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 8pt tahoma;
+}
+.time
+{
+	color: #666686;
+	font-size: 8pt;
+}
+.navbar
+{
+	font: 11px tahoma;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #E4E7F5 url(//vkopt.net/forum/images/vkopt/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #D1D4E0 url(//vkopt.net/forum/images/vkopt/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #35679A;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #bbc7ce;
+	color: #FFFFFF;
+	font: 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.vbmenu_option
+{
+	background: #BBC7CE;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #3F579D;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #3F579D;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #3F579D;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #8A949E;
+	color: #FFFFFF;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 10pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 6px; }
+td.tcat, div.tcat { padding: 2px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+.alt3, .alt3Active
+{
+	background: #EEEEEE;
+	color: #000000;
+	font: 8pt tahoma;
+	border-top-color: #cccccc;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.tmenu
+{
+	color: #FFFFFF;
+	font: bold 12px tahoma;
+}
+.tmenu a:hover, .tmenu a:active, .tmenu_ahover
+{
+	padding: 4px 0px 4px 0px;
+	color: #DDDDDD;
+	text-decoration: none;
+}
+.whiteborder {
+         border:1px solid #a9a9a9; background-color:#FFFFFF; padding:4px;
+}
+.explanation {
+         background-color:#FFFFCC; padding:3px;
+}
+.moreDiv {
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: 1px solid #ccc;
+}
+
+#nav li a.more {
+  padding-left: 29px;
+  width:127px;
+}
+
+#nav li a.more:hover {
+  width:127px;
+}
+
+#nav {
+  list-style: none;
+  margin: 0 0 1.0em 0;
+  padding: 0; }
+
+#nav li {
+  border-bottom: 1px solid #FFF;
+  font-size: 1.0em; }
+
+#nav li#myprofile {
+  border-bottom: 0;
+  margin-bottom:-2px;
+}
+
+#nav li#myfriends {
+  clear: left; }
+
+#nav li a {
+  border: 0; border-top:1px solid #fff;
+/*  border-left: 4px solid #F3F5F7;*/
+  background: #eee;
+  background: white;
+  display: block;
+  padding: 3px 3px 3px 6px;
+}
+
+#nav li a.more {
+  padding-left: 6px;
+}
+
+#nav li#myprofile a {
+  padding: 0;
+  width: auto;
+  border-bottom: 1px solid #FFF;
+}
+
+#nav li#myprofile a.hasedit {
+  float: left;
+  padding: 2px 0 2px 3px;
+  width: 100px;
+  padding: 3px 3px 3px 6px; border-top:1px solid #fff;
+/*  border-left: 4px solid #F3F5F7;*/
+}
+
+#nav li#myprofile a.edit {
+  color: gray;
+  float: right;
+  padding: 2px 1px;
+  text-align: center;
+  width: 28px;
+  padding: 3px 0px 3px 1px;
+  border-left: 0;
+}
+
+#nav li#myprofile a.edit:hover {
+ background: #EAEEF2;
+ color:#36638E;
+ border-left:0px;
+}
+
+#nav li a:hover,
+#nav li#myprofile a:hover {
+  background: #DAE1E8;
+  color:#36638E;
+  border-top: 1px solid #CAD1D9;
+  text-decoration:none;
+}
+/*
+#notifications a {
+  border: 0; border-top:1px solid #fff;
+  border-left: 4px solid #F3F5F7;
+  background: #eee;
+  background: white;
+  display: block;
+  padding: 3px 3px 3px 6px;
+}
+
+#notifications a:hover {
+  background: #DAE1E8;
+  color:#36638E;
+  border-top: 1px solid #CAD1D9;
+  text-decoration:none;
+}
+*/
+#sideBar {
+  width: 150px;
+}
+.timestamp { 
+color: #999999;
+display: block;
+padding-top: 1px;
+font-size: 9px;
+}
+.thead1
+{
+	background: #dae2e8;
+	color: #35679A;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top-color: #3b5998;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.thead2
+{
+	background: #f0e8ee;
+	color: #35679A;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top-color: #3b5998;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.block_blog {position: relative; margin: 5px 0 0 0px; padding: 20px 0 15px 100px}
+.block_blog * {list-style: none; margin: 0; padding: 0}
+.blogs {height: 45px; overflow: hidden; position: relative; position: absolute; top: 18px; left: 0}
+   .blogs ul {height: 26px; overflow: hidden; margin-bottom: 3px}
+      .blogs li {float: left; padding-right: 4px}
+      .blogs li a {background: url(//vkopt.net/forum/images/vkopt/icons/blogs.gif); width: 26px; height: 26px; float: left; display: block}
+      .blogs .lj a {background-position: 0 0}         .blogs .lj a:hover {background-position: 0 -27px}
+      .blogs .vk a {background-position: -27px 0}     .blogs .vk a:hover {background-position: -27px -27px}
+      .blogs .fb a {background-position: -54px 0}     .blogs .fb a:hover {background-position: -54px -27px}
+      .blogs .tw a {background-position: -81px 0}     .blogs .tw a:hover {background-position: -81px -27px}
+      .blogs .ma a {background-position: -108px 0}    .blogs .ma a:hover {background-position: -108px -27px}
+      .blogs .send a {background-position: -135px 0}  .blogs .send a:hover {background-position: -135px -27px}
+      .blogs .ok a {background-position: -162px 0}    .blogs .ok a:hover {background-position: -162px -27px}
+      .blogs .ya a {background-position: -189px 0}    .blogs .ya a:hover {background-position: -189px -27px}
+   .blogs span {color: #777; font-size: 10px; white-space: nowrap; position: absolute}
+   .block_blog .pls {background-position: 0 -12px}
+.movie_send_alert .send_alert {margin-top: 0}
+.note-classic,.note-important,.note-warning,.note-tip{margin:2em;margin-left:40px;margin-right:auto;width:70%!important;min-height:15px;clear:both;text-align:justify;vertical-align:middle;border-collapse:collapse;padding:15px 20px 15px 60px;background-position:20px 50%;background-repeat:no-repeat;-moz-border-radius:20px;-khtml-border-radius:20px;-webkit-border-radius:20px;border-radius:20px;}
+.note-classic{background-color:#eef;}
+.note-important{background-color:#ffc;}
+.note-warning{background-color:#fdd;}
+.note-tip{background-color:#dfd;}
+.sitegpluse {
+  margin-left:20px;
+  opacity: 0.6;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);   
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.sitegpluse:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);   
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+}

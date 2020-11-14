@@ -53,12 +53,17 @@ web_add_auto_header("Sec-Fetch-Site",
 	lr_start_transaction("login");
 
 
+	web_reg_find("Text=User password was correct",
+		LAST);
+	
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
 		ITEMDATA, 
 		"Name=username", "Value={login}", ENDITEM, 
 		"Name=password", "Value={passwordDat}", ENDITEM, 
 		LAST);
+
+	
 
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
@@ -83,6 +88,8 @@ lr_start_transaction("searchFlights");
 		
 
 	
+
+	
 	web_reg_save_param_regexp(
 		"ParamName=outbondFlight",
 		"RegExp=Flight\" value=\"(.\\S*)\"",
@@ -90,6 +97,7 @@ lr_start_transaction("searchFlights");
 		SEARCH_FILTERS,
 		"Scope=BODY",
 		LAST);
+		
 
 	web_submit_form("reservations.pl", 
 		"Snapshot=t4.inf", 
@@ -110,6 +118,8 @@ lr_start_transaction("searchFlights");
 		
 		lr_start_transaction("chooseFlight");
 
+	web_reg_find("Text=name=\"buyFlights\"",
+		LAST);
 
 	web_submit_form("reservations.pl_2", 
 		"Snapshot=t5.inf", 
@@ -136,6 +146,10 @@ lr_start_transaction("searchFlights");
 
 	lr_think_time(11);
 
+	
+//	web_reg_find("Reservation Made!",
+//		LAST);
+
 	web_submit_form("reservations.pl_3", 
 		"Snapshot=t6.inf", 
 		ITEMDATA, 
@@ -146,7 +160,9 @@ lr_start_transaction("searchFlights");
 		"Name=pass1", "Value=Jojo Bean", ENDITEM, 
 		"Name=creditCard", "Value={creditNumber}", ENDITEM, 
 		"Name=expDate", "Value={dateCard}", ENDITEM, 
-		"Name=saveCC", "Value=<OFF>", ENDITEM, 
+		"Name=saveCC", "Value=<OFF>", ENDITEM,
+		"Name=buyFlights.x","Value=54", ENDITEM,
+		"Name=buyFlights.y","Value=10", ENDITEM,		
 		LAST);
 
 	web_add_header("Sec-Fetch-User", 
