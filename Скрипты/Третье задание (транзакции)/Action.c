@@ -147,8 +147,8 @@ lr_start_transaction("searchFlights");
 	lr_think_time(11);
 
 	
-//	web_reg_find("Reservation Made!",
-//		LAST);
+	web_reg_find("Reservation Made!",
+		LAST);
 
 	web_submit_form("reservations.pl_3", 
 		"Snapshot=t6.inf", 

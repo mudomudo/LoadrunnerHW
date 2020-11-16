@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IX:\Проекты\LoadrunnerHW\Скрипты\Пятое задание(Итоговое)\Удаление билета
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ex:\проекты\loadrunnerhw\скрипты\пятое задание(итоговое)\удаление билета\\logfile.log
+x:\проекты\loadrunnerhw\скрипты\пятое задание(итоговое)\удаление билета\\combined_Удаление билета.c
+x:\проекты\loadrunnerhw\скрипты\пятое задание(итоговое)\удаление билета\\pre_cci.c

@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "login",
+        "rawStartTime": 1605521428416,
+        "rawEndTime": 1605521428999
+    },
+    {
+        "transactionName": "searchFlights",
+        "rawStartTime": 1605521429015,
+        "rawEndTime": 1605521429239
+    },
+    {
+        "transactionName": "inputData",
+        "rawStartTime": 1605521429271,
+        "rawEndTime": 1605521429401
+    },
+    {
+        "transactionName": "chooseFlight",
+        "rawStartTime": 1605521429415,
+        "rawEndTime": 1605521429622
+    },
+    {
+        "transactionName": "enterUserData",
+        "rawStartTime": 1605521429652,
+        "rawEndTime": 1605521429853
+    },
+    {
+        "transactionName": "openFlightsList",
+        "rawStartTime": 1605521429868,
+        "rawEndTime": 1605521430196
+    },
+    {
+        "transactionName": "discardAllFlights",
+        "rawStartTime": 1605521430227,
+        "rawEndTime": 1605521430383
+    },
+    {
+        "transactionName": "signOff",
+        "rawStartTime": 1605521430398,
+        "rawEndTime": 1605521430573
+    }
+]

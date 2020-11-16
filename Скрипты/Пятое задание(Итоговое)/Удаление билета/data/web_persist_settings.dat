@@ -1,0 +1,23 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2020/10/23 09:32:26
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2020/10/26 08:17:00
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2020/10/26 12:04:21
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2020/10/26 12:11:47
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2020/10/26 12:46:10
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2020/10/29 13:06:43
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2020/10/29 13:41:18
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2020/11/13 14:28:54
+StartRecordingIsDst_8=0
+StartRecordingGMT_9=2020/11/14 17:56:17
+StartRecordingIsDst_9=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1

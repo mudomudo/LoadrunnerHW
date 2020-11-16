@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	X:\Проекты\LoadrunnerHW\Скрипты\Второе задание (корелляция)\data\
+		default	X:\Проекты\LoadrunnerHW\Скрипты\Четвёртое задание (проверки)\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly
