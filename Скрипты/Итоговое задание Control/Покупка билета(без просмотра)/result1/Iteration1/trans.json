@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "Вход в систему",
+        "rawStartTime": 1605548898352,
+        "rawEndTime": 1605548899076
+    },
+    {
+        "transactionName": "Поиск рейсов",
+        "rawStartTime": 1605548899108,
+        "rawEndTime": 1605548899378
+    },
+    {
+        "transactionName": "Ввод параметров рейса",
+        "rawStartTime": 1605548899410,
+        "rawEndTime": 1605548899553
+    },
+    {
+        "transactionName": "Выбор рейса",
+        "rawStartTime": 1605548899585,
+        "rawEndTime": 1605548899790
+    },
+    {
+        "transactionName": "Ввод данных пользователя",
+        "rawStartTime": 1605548899821,
+        "rawEndTime": 1605548900028
+    },
+    {
+        "transactionName": "Просмотр квитанций",
+        "rawStartTime": 1605548900060,
+        "rawEndTime": 1605548900294
+    },
+    {
+        "transactionName": "Выход из системы",
+        "rawStartTime": 1605548900341,
+        "rawEndTime": 1605548900597
+    }
+]

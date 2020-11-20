@@ -1,0 +1,393 @@
+[API Trapper      (33dc:2b04)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (36c4:33c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (29c8:3630)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29c8:22a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (29c8:22a4)] Load Network Traffic Analyzers:
+[Network Analyzer (29c8:22a4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (29c8:22a4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (29c8:22a4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (29c8:22a4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (29c8:22a4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (29c8:22a4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (29c8:22a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (29c8:2f8c)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 64.233.161.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (29c8:3310)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (29c8:2f8c)] "GET /WebTours/"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Client -> Server @ : 540 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (29c8:3310)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=86"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  1) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/header.html"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Client -> Server @ : 577 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid:  1) Server -> Client : 636 bytes (SSL) (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Client -> Server @ : 588 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  5) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  5) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2484)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:2484)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Client -> Server @ : 629 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/home.html"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  5) Client -> Server @ : 625 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  5) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Client -> Server @ : 511 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (29c8:2f8c)] "GET /favicon.ico"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (29c8: bb0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:2f8c)]   (Sid:  5) Connection Terminated (by Server)
+[API Trapper      ( 9dc:2c10)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29c8:2f8c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8: bb0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (29c8:2f8c)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCTfZQeCPfjGJEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  6) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  7) Client -> Server @ : 882 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  6) Server -> Client : 613 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  7) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[API Trapper      (2d38:2acc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (29c8:3738)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:2f8c)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 64.233.162.188:5228   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (29c8:2fb0)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 64.233.162.157:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (29c8: 20c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 173.194.222.100:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (29c8:3738)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:2fb0)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8: 20c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Client -> Server @ : 1194 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Client -> Server @ : 525 bytes (SSL)
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (29c8:2f8c)] "POST /service/update2/json?cup2key=10:732940862&cup2hreq=7890a248371fb88aef6af16b134d2c8791c96f11cc9f0597bea9d45e65a9b679"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Client -> Server @ : 5151 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 12) Client -> Server @ : 734 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 1 bytes (SSL)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 13) Client -> Server @ : 729 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 12) Server -> Client : 1745 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (29c8:2f8c)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 13) Server -> Client : 1159 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 404 bytes (SSL)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 394 bytes (SSL)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 394 bytes (SSL)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 394 bytes (SSL)
+[Network Analyzer (29c8:2f8c)]   (Sid:  9) Server -> Client : 1186 bytes (SSL)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Server -> Client : 1274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Server -> Client : 1025 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 13) Client -> Server @ : 629 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 12) Client -> Server @ : 631 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 14) Client -> Server @ : 629 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 15) Client -> Server @ : 629 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 14) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 13) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 12) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 15) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (29c8:3468)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[API Trapper      (1810:2c68)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 173.194.73.132:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (29c8:3468)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:2f8c)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 995 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 1116 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (29c8:2f8c)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (29c8:2f8c)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2c3c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 668 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 108 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2c3c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 995 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 1651 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Client -> Server @ : 435 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /service/update2/json"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Client -> Server @ : 1068 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Server -> Client : 822 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  8) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 428 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 94 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 994 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 761 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 994 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 923 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 122 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1263 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1365 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 296 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 157 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 188 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 118 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 996 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 5910 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 86 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1266 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 117 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 995 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 5499 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1257 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 30 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 994 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=DsggD/MWo4j4YVuf9KOQug%3D%3D"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 715 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1335 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 885 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 46 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 188 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 1294 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 80 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Client -> Server @ : 768 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Client -> Server @ : 751 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 18) Client -> Server @ : 752 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Client -> Server @ : 635 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 19) Client -> Server @ : 629 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 19) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 18) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 18) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 18) Client -> Server @ : 637 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACesIHR01a_Z_EgkNVGIprRIAGgASCQ17ncSlEgAaABIJDR87OYUSABoAEgkN2oWZYRIAGgASCQ2pjkq9EgAaAA==?alt=proto"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  6) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 18) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  6) Server -> Client : 636 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  1) Client -> Server @ : 584 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /uma/v2"   
+[Network Analyzer (29c8:2f8c)]   (Sid:  1) Client -> Server @ : 1931 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  1) Server -> Client : 650 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (29c8:2f8c)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (29c8:2a00)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (29c8:2a00)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29c8:2f8c)]   (Sid: 20) Client -> Server @ : 1204 bytes (SSL)(Service=HTTP)
+[Web Request      (29c8:2f8c)] "POST /service/update2/json?cup2key=10:4087967539&cup2hreq=51c9397840b629e6a4bdff9cc72aa83b67ac71266590b0d5aeaeb801eb86d045"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 20) Client -> Server @ : 6616 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 20) Server -> Client : 1270 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 20) Server -> Client : 1263 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (29c8:2f8c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 21) Client -> Server @ : 1135 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 21) Server -> Client : 2709 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (29c8:2f8c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 22) Client -> Server @ : 1024 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 22) Server -> Client : 2961 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (29c8:2f8c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 23) Client -> Server @ : 1173 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 23) Server -> Client : 2849 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 23) Client -> Server @ : 600 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 23) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Client -> Server @ : 750 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Client -> Server @ : 732 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 25) Client -> Server @ : 715 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 25) Server -> Client : 12940 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 25) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 25) Client -> Server @ : 603 bytes (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 25) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (29c8:2f8c)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 26) Client -> Server @ : 747 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 26) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 26) Client -> Server @ : 626 bytes (Service=HTTP)
+[Network Analyzer (29c8:22a4)] Address lookup for DESKTOP-EQMP8L4 = 172.29.64.1
+[Network Analyzer (29c8:22a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (29c8:2f8c)]   (Sid: 26) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (29c8:2f8c)] "GET /WebTours/home.html"   
+[Network Analyzer (29c8:2f8c)]   (Sid: 27) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer (29c8:2f8c)]   (Sid: 27) Server -> Client : 194 bytes  (Service=HTTP)
