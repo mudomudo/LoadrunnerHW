@@ -2581,8 +2581,10 @@ void
 
 
 
+
  
  
+
 
 
 
@@ -2598,8 +2600,12 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
+	
+	lr_start_transaction("cancelFlight");
 
-	lr_start_transaction("getWebTours");
+	
+	lr_start_transaction("1_startWebtours");
+
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -2615,7 +2621,6 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
 	web_reg_find("Text=<title>Web Tours</title>",
 		"LAST");
 
@@ -2624,11 +2629,13 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t8.inf", 
+		"Snapshot=t17.inf", 
 		"Mode=HTML", 
 		"LAST");
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
+
+	 
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
@@ -2642,22 +2649,18 @@ Action()
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
-	lr_end_transaction("getWebtours", 2);
-
-
-	lr_think_time(4);
 	
-	lr_start_transaction("login");
-
+	lr_end_transaction("1_startWebtours", 2);
+	lr_start_transaction("2_login");
 
 	web_reg_find("Text=User password was correct",
 		"LAST");
 
 	web_submit_form("login.pl", 
-		"Snapshot=t9.inf", 
+		"Snapshot=t18.inf", 
 		"ITEMDATA", 
 		"Name=username", "Value={login}", "ENDITEM", 
-		"Name=password", "Value={passwordDat}", "ENDITEM", 
+		"Name=password", "Value={password}", "ENDITEM", 
 		"LAST");
 
 	web_add_auto_header("Sec-Fetch-User", 
@@ -2665,157 +2668,72 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
+	lr_end_transaction("2_login", 2);
 	
-	lr_end_transaction("login", 2);
-	
-	lr_start_transaction("searchFlights");
+	lr_start_transaction("3_checkFlights");
 
-	web_reg_find("Text=User has returned to the search page",
-		"LAST");
-
-	web_image("Search Flights Button", 
-		"Alt=Search Flights Button", 
-		"Snapshot=t10.inf", 
-		"LAST");
-
-	web_add_auto_header("Origin", 
-		"http://127.0.0.1:1080");
-	
-	lr_end_transaction("searchFlights", 2);
-
-
-	lr_think_time(9);
-	
-	lr_start_transaction("inputData");
 
 	
 	web_reg_save_param_regexp(
-		"ParamName=outboundFlight",
-		"RegExp=name=\"outboundFlight\" value=\"(.*?\\S)\"",
+		"ParamName=flightNumber",
+		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
 		"Group=1",
-		"Ordinal=ALL",
+		"Ordinal=all",
 		"SEARCH_FILTERS",
 		"LAST");
 
-	web_submit_form("reservations.pl", 
-		"Snapshot=t11.inf", 
-		"ITEMDATA", 
-		"Name=depart", "Value={cityOut}", "ENDITEM", 
-		"Name=departDate", "Value={outDate}", "ENDITEM", 
-		"Name=arrive", "Value={cityIn}", "ENDITEM", 
-		"Name=returnDate", "Value={returnDate}", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=roundtrip", "Value=<OFF>", "ENDITEM", 
-		"Name=seatPref", "Value={seat}", "ENDITEM", 
-		"Name=seatType", "Value={class}", "ENDITEM",
-		"Name=findFlights.x", "Value=62", "ENDITEM",
-		"Name=findFlights.y", "Value=12", "ENDITEM",		
-		"LAST");
 	
-	lr_end_transaction("inputData", 2);
-
-	lr_start_transaction("chooseFlight");
-
-	web_reg_find("Text=<title>Flight Reservation</title>",
-		"LAST");
-
-	
-	web_submit_form("reservations.pl_2", 
-		"Snapshot=t12.inf", 
-		"ITEMDATA", 
-		"Name=outboundFlight", "Value={outboundFlight_1}", "ENDITEM", 
-		"Name=reserveFlights.x", "Value=32", "ENDITEM", 
-		"Name=reserveFlights.y", "Value=8", "ENDITEM", 
-		"LAST");
-
-	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
-
-	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
-
-	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
-
-	web_add_header("Origin", 
-		"http://127.0.0.1:1080");
-	
-	lr_end_transaction("chooseFlight", 2);
-
-
-	lr_think_time(4);
-	
-	lr_start_transaction("enterUserData");
-	
-	web_reg_find("Text=<title>Reservation Made!</title>",
-		"LAST");
-
-	web_submit_form("reservations.pl_3", 
-		"Snapshot=t13.inf", 
-		"ITEMDATA", 
-		"Name=firstName", "Value={name}", "ENDITEM", 
-		"Name=lastName", "Value={name}", "ENDITEM", 
-		"Name=address1", "Value=", "ENDITEM", 
-		"Name=address2", "Value=", "ENDITEM", 
-		"Name=pass1", "Value=Jojo Bean", "ENDITEM", 
-		"Name=creditCard", "Value={creditNumber}", "ENDITEM", 
-		"Name=expDate", "Value={dateCard}", "ENDITEM", 
-		"Name=saveCC", "Value=<OFF>", "ENDITEM", 
-		"Name=buyFlights.x", "Value=70", "ENDITEM",
-		"Name=buyFlights.y", "Value=10", "ENDITEM",
-		"LAST");
-
-	web_add_auto_header("Sec-Fetch-User", 
-		"?1");
-
-	web_add_auto_header("Upgrade-Insecure-Requests", 
-		"1");
-	
-	lr_end_transaction("enterUserData", 2);
-	
-	lr_start_transaction("openFlightsList");
-
 	web_reg_find("Text=User wants the intineraries",
 		"LAST");
 
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
-		"Snapshot=t14.inf", 
+		"Snapshot=t19.inf", 
 		"LAST");
 
 	web_add_header("Origin", 
 		"http://127.0.0.1:1080");
 	
-	lr_end_transaction("openFlightsList", 2);
+	lr_end_transaction("3_checkFlights", 2);
 
 
-	lr_think_time(12);
+	lr_think_time(13);
+
 	
-	lr_start_transaction("discardAllFlights");
+	lr_start_transaction("4_cancelFlight");
 
-	web_reg_find("Text=Flight Transaction Summary",
+	web_reg_find("Text=<!-- Flight #1 -->",
 		"LAST");
 
 	web_submit_form("itinerary.pl", 
-		"Snapshot=t15.inf", 
+		"Snapshot=t20.inf", 
 		"ITEMDATA", 
-		"Name=1", "Value=<OFF>", "ENDITEM", 
+		"Name={flightNumber_1}", "Value=on", "ENDITEM",
+		"Name=removeFlights.x", "Value=59", "ENDITEM",
+		"Name=removeFlights.y", "Value=11", "ENDITEM",		
 		"LAST");
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");
-	lr_end_transaction("discardAllFlights", 2);
 	
-	lr_start_transaction("signOff");
+	lr_end_transaction("4_cancelFlight", 2);
+	
+	lr_start_transaction("5_signOff");
 
-	web_reg_find("Text=A Session ID has been created and loaded into a cookie",
+	web_reg_find("Text=A Session ID has been created and loaded",
 		"LAST");
 
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
-		"Snapshot=t16.inf", 
+		"Snapshot=t21.inf", 
 		"LAST");
 	
-	lr_end_transaction("signOff", 2);
+	lr_end_transaction("5_signOff", 2);
+	
+	lr_end_transaction("cancelFlight", 2);
+
 
 
 	return 0;

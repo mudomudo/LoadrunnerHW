@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IX:\Проекты\LoadrunnerHW\Скрипты\Итоговое задание Control\Покупка билета
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ex:\проекты\loadrunnerhw\скрипты\итоговое задание control\покупка билета\\logfile.log
-x:\проекты\loadrunnerhw\скрипты\итоговое задание control\покупка билета\\combined_Покупка билета.c
-x:\проекты\loadrunnerhw\скрипты\итоговое задание control\покупка билета\\pre_cci.c

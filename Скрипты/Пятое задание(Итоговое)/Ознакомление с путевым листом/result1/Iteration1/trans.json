@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "1_getWebtours",
+        "rawStartTime": 1606413909197,
+        "rawEndTime": 1606413909661
+    },
+    {
+        "transactionName": "2_login",
+        "rawStartTime": 1606413909677,
+        "rawEndTime": 1606413909917
+    },
+    {
+        "transactionName": "3_Itinerary",
+        "rawStartTime": 1606413909933,
+        "rawEndTime": 1606413910188
+    },
+    {
+        "transactionName": "4_signoff",
+        "rawStartTime": 1606413910204,
+        "rawEndTime": 1606413910425
+    },
+    {
+        "transactionName": "checkTicket",
+        "rawStartTime": 1606413909182,
+        "rawEndTime": 1606413910441
+    }
+]

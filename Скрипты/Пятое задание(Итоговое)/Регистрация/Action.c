@@ -1,7 +1,10 @@
 Action()
 {
+	
+	lr_start_transaction("registration");
 
-	lr_start_transaction("getWebTours");
+
+	lr_start_transaction("1_getWebTours");
 
 
 	web_add_auto_header("Sec-Fetch-Site", 
@@ -42,9 +45,9 @@ Action()
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
-	lr_end_transaction("getWebTours", LR_AUTO);
+	lr_end_transaction("1_getWebTours", LR_AUTO);
 
-	lr_start_transaction("signUp");
+	lr_start_transaction("2_signUp");
 
 
 	web_reg_find("Text=<title>User Information</title>",
@@ -63,12 +66,12 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-	lr_end_transaction("signUp", LR_AUTO);
+	lr_end_transaction("2_signUp", LR_AUTO);
 
 
 	lr_think_time(53);
 	
-	lr_start_transaction("enterUserData");
+	lr_start_transaction("3_enterUserData");
 
 	web_reg_find("Text=<title>Welcome to Web Tours</title>",
 		LAST);
@@ -76,13 +79,13 @@ Action()
 	web_submit_form("login.pl", 
 		"Snapshot=t3.inf", 
 		ITEMDATA, 
-		"Name=username", "Value={randomString}", ENDITEM, 
-		"Name=password", "Value={randomString}", ENDITEM, 
-		"Name=passwordConfirm", "Value={randomString}", ENDITEM, 
-		"Name=firstName", "Value={randomString}", ENDITEM, 
-		"Name=lastName", "Value={randomString}", ENDITEM, 
-		"Name=address1", "Value={randomString}", ENDITEM, 
-		"Name=address2", "Value={randomString}", ENDITEM, 
+		"Name=username", "Value={uniqueString}", ENDITEM, 
+		"Name=password", "Value={uniqueString}", ENDITEM, 
+		"Name=passwordConfirm", "Value={uniqueString}", ENDITEM, 
+		"Name=firstName", "Value={uniqueString}", ENDITEM, 
+		"Name=lastName", "Value={uniqueString}", ENDITEM, 
+		"Name=address1", "Value={uniqueString}", ENDITEM, 
+		"Name=address2", "Value={uniqueString}", ENDITEM, 
 		"Name=register.x", "Value=50", ENDITEM, 
 		"Name=register.y", "Value=7", ENDITEM, 
 		LAST);
@@ -91,12 +94,12 @@ Action()
 
 	web_revert_auto_header("Upgrade-Insecure-Requests");
 	
-	lr_end_transaction("enterUserData", LR_AUTO);
+	lr_end_transaction("3_enterUserData", LR_AUTO);
 
 
 	lr_think_time(12);
 	
-	lr_start_transaction("submitRegistration");
+	lr_start_transaction("4_submitRegistration");
 
 	web_reg_find("Text= User has returned to the home page.",
 		LAST);
@@ -112,9 +115,9 @@ Action()
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-	lr_end_transaction("submitRegistration", LR_AUTO);
+	lr_end_transaction("4_submitRegistration", LR_AUTO);
 	
-	lr_start_transaction("signOff");
+	lr_start_transaction("5_signOff");
 
 	web_reg_find("Text= A Session ID has been created and loaded into a cookie",
 		LAST);
@@ -124,7 +127,10 @@ Action()
 		"Snapshot=t5.inf", 
 		LAST);
 	
-	lr_end_transaction("signOff", LR_AUTO);
+	lr_end_transaction("5_signOff", LR_AUTO);
+	
+	lr_end_transaction("registration", LR_AUTO);
+
 
 
 	return 0;

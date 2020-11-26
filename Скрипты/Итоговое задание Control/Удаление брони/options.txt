@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IX:\Проекты\LoadrunnerHW\Скрипты\Итоговое задание Control\Удаление брони
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ex:\проекты\loadrunnerhw\скрипты\итоговое задание control\удаление брони\\logfile.log
-x:\проекты\loadrunnerhw\скрипты\итоговое задание control\удаление брони\\combined_Удаление брони.c
-x:\проекты\loadrunnerhw\скрипты\итоговое задание control\удаление брони\\pre_cci.c

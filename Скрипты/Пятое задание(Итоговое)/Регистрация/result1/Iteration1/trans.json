@@ -1,27 +1,32 @@
 [
     {
-        "transactionName": "getWebTours",
-        "rawStartTime": 1605529052262,
-        "rawEndTime": 1605529052762
+        "transactionName": "1_getWebTours",
+        "rawStartTime": 1606408158148,
+        "rawEndTime": 1606408158609
     },
     {
-        "transactionName": "signUp",
-        "rawStartTime": 1605529052778,
-        "rawEndTime": 1605529053012
+        "transactionName": "2_signUp",
+        "rawStartTime": 1606408158625,
+        "rawEndTime": 1606408159133
     },
     {
-        "transactionName": "enterUserData",
-        "rawStartTime": 1605529053045,
-        "rawEndTime": 1605529053265
+        "transactionName": "3_enterUserData",
+        "rawStartTime": 1606408159164,
+        "rawEndTime": 1606408159527
     },
     {
-        "transactionName": "submitRegistration",
-        "rawStartTime": 1605529053296,
-        "rawEndTime": 1605529053656
+        "transactionName": "4_submitRegistration",
+        "rawStartTime": 1606408159559,
+        "rawEndTime": 1606408159828
     },
     {
-        "transactionName": "signOff",
-        "rawStartTime": 1605529053672,
-        "rawEndTime": 1605529053968
+        "transactionName": "5_signOff",
+        "rawStartTime": 1606408159843,
+        "rawEndTime": 1606408160063
+    },
+    {
+        "transactionName": "registration",
+        "rawStartTime": 1606408158133,
+        "rawEndTime": 1606408160078
     }
 ]

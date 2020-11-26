@@ -2596,8 +2596,11 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
+	
+	lr_start_transaction("registration");
 
-	lr_start_transaction("getWebTours");
+
+	lr_start_transaction("1_getWebTours");
 
 
 	web_add_auto_header("Sec-Fetch-Site", 
@@ -2638,9 +2641,9 @@ Action()
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
-	lr_end_transaction("getWebTours", 2);
+	lr_end_transaction("1_getWebTours", 2);
 
-	lr_start_transaction("signUp");
+	lr_start_transaction("2_signUp");
 
 
 	web_reg_find("Text=<title>User Information</title>",
@@ -2659,12 +2662,12 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-	lr_end_transaction("signUp", 2);
+	lr_end_transaction("2_signUp", 2);
 
 
 	lr_think_time(53);
 	
-	lr_start_transaction("enterUserData");
+	lr_start_transaction("3_enterUserData");
 
 	web_reg_find("Text=<title>Welcome to Web Tours</title>",
 		"LAST");
@@ -2687,12 +2690,12 @@ Action()
 
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
 	
-	lr_end_transaction("enterUserData", 2);
+	lr_end_transaction("3_enterUserData", 2);
 
 
 	lr_think_time(12);
 	
-	lr_start_transaction("submitRegistration");
+	lr_start_transaction("4_submitRegistration");
 
 	web_reg_find("Text= User has returned to the home page.",
 		"LAST");
@@ -2708,9 +2711,9 @@ Action()
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-	lr_end_transaction("submitRegistration", 2);
+	lr_end_transaction("4_submitRegistration", 2);
 	
-	lr_start_transaction("signOff");
+	lr_start_transaction("5_signOff");
 
 	web_reg_find("Text= A Session ID has been created and loaded into a cookie",
 		"LAST");
@@ -2720,7 +2723,10 @@ Action()
 		"Snapshot=t5.inf", 
 		"LAST");
 	
-	lr_end_transaction("signOff", 2);
+	lr_end_transaction("5_signOff", 2);
+	
+	lr_end_transaction("registration", 2);
+
 
 
 	return 0;

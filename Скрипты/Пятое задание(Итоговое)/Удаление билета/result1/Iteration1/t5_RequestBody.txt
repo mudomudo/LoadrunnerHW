@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Portland&departDate=11%2F19%2F2020&arrive=Frankfurt&returnDate=11%2F2"
-"1%2F2020&numPassengers=1&seatPref=Aisle&seatType=First&.cgifields=roundtrip&.cgifields=seatTyp"
-"e&.cgifields=seatPref&findFlights.x=62&findFlights.y=12"
+"1=on&flightID=7419-795-JB&flightID=18564-1557-JB&.cgifields=1&.cgifields=2&removeFlights.x=59&"
+"removeFlights.y=11"

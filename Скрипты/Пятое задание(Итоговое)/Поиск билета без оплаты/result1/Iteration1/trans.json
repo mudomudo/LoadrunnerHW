@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "1_startPage",
+        "rawStartTime": 1606398602166,
+        "rawEndTime": 1606398602671
+    },
+    {
+        "transactionName": "2_login",
+        "rawStartTime": 1606398602703,
+        "rawEndTime": 1606398602975
+    },
+    {
+        "transactionName": "3_flightSearchButton",
+        "rawStartTime": 1606398602991,
+        "rawEndTime": 1606398603243
+    },
+    {
+        "transactionName": "4_searchParam",
+        "rawStartTime": 1606398603274,
+        "rawEndTime": 1606398603450
+    },
+    {
+        "transactionName": "5_selectFlight",
+        "rawStartTime": 1606398603465,
+        "rawEndTime": 1606398603640
+    },
+    {
+        "transactionName": "6_signOff",
+        "rawStartTime": 1606398603671,
+        "rawEndTime": 1606398603907
+    },
+    {
+        "transactionName": "searchWithoutPay",
+        "rawStartTime": 1606398602151,
+        "rawEndTime": 1606398603923
+    }
+]

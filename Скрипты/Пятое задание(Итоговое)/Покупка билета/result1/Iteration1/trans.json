@@ -1,0 +1,47 @@
+[
+    {
+        "transactionName": "1_startWebtours",
+        "rawStartTime": 1606406343563,
+        "rawEndTime": 1606406344038
+    },
+    {
+        "transactionName": "2_login",
+        "rawStartTime": 1606406344054,
+        "rawEndTime": 1606406344276
+    },
+    {
+        "transactionName": "3_searchFlights",
+        "rawStartTime": 1606406344307,
+        "rawEndTime": 1606406344606
+    },
+    {
+        "transactionName": "4_flightsParam",
+        "rawStartTime": 1606406344638,
+        "rawEndTime": 1606406344811
+    },
+    {
+        "transactionName": "5_selectFlight",
+        "rawStartTime": 1606406344843,
+        "rawEndTime": 1606406345048
+    },
+    {
+        "transactionName": "6_enterUserData",
+        "rawStartTime": 1606406345079,
+        "rawEndTime": 1606406345658
+    },
+    {
+        "transactionName": "7_checkFlights",
+        "rawStartTime": 1606406345690,
+        "rawEndTime": 1606406346114
+    },
+    {
+        "transactionName": "8_SignOff",
+        "rawStartTime": 1606406346161,
+        "rawEndTime": 1606406346368
+    },
+    {
+        "transactionName": "buyTicket",
+        "rawStartTime": 1606406343548,
+        "rawEndTime": 1606406346383
+    }
+]

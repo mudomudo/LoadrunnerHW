@@ -1,8 +1,9 @@
-[parameter:randomString]
-Format="%lu"
+[parameter:uniqueString]
+BlockSize="9999999"
+Format="%03d"
 GenerateNewVal="EachIteration"
-MaxValue="9999"
-MinValue="1111"
 OriginalValue=""
-ParamName="randomString"
-Type="Random"
+OutOfRangePolicy="ContinueWithLast"
+ParamName="uniqueString"
+StartValue="111"
+Type="Unique"
