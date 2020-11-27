@@ -73,6 +73,14 @@ Action()
 	lr_start_transaction("3_checkFlights");
 
 
+	web_reg_save_param_regexp(
+		"ParamName=flightId",
+		"RegExp=input type=\"hidden\" name=\"flightID\" value=\"(.*?)\"",
+		"Group=1",
+		"Ordinal=ALL",
+		SEARCH_FILTERS,
+		LAST);
+
 	
 	web_reg_save_param_regexp(
 		"ParamName=flightNumber",
@@ -101,6 +109,14 @@ Action()
 
 	
 	lr_start_transaction("4_cancelFlight");
+	
+	web_reg_save_param_regexp(
+		"ParamName=flightIdCanceled",
+		"RegExp=input type=\"hidden\" name=\"flightID\" value=\"(.*?)\"",
+		"Group=1",
+		"Ordinal=all",
+		SEARCH_FILTERS,
+		LAST);
 
 	web_reg_find("Text=<!-- Flight #1 -->",
 		LAST);
@@ -112,13 +128,23 @@ Action()
 		"Name=removeFlights.x", "Value=59", ENDITEM,
 		"Name=removeFlights.y", "Value=11", ENDITEM,		
 		LAST);
+	
+	
+	if(strcmp(lr_eval_string("{flightNumber_1}"),lr_eval_string("{flightIdCanceled_1}"))==0){
+	   lr_end_transaction("4_cancelFlight", LR_PASS);
+	   }
+	   else{
+	   lr_end_transaction("4_cancelFlight", LR_FAIL);
+	   }
+	
+	
 
 	web_revert_auto_header("Sec-Fetch-User");
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");
 	
-	lr_end_transaction("4_cancelFlight", LR_AUTO);
+	
 	
 	lr_start_transaction("5_signOff");
 

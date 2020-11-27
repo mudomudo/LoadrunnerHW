@@ -3,30 +3,30 @@
         "stepId": "STEP1",
         "stepName": "Url: WebTours",
         "infFile": "t1.inf",
-        "time": 1606412922893
+        "time": 1606479553753
     },
     {
         "stepId": "STEP2",
         "stepName": "Submit Form: login.pl",
         "infFile": "t2.inf",
-        "time": 1606412923207
+        "time": 1606479554122
     },
     {
         "stepId": "STEP3",
         "stepName": "Image: Itinerary Button",
-        "infFile": "t4.inf",
-        "time": 1606412923519
+        "infFile": "t5.inf",
+        "time": 1606479554439
     },
     {
         "stepId": "STEP4",
         "stepName": "Submit Form: itinerary.pl",
-        "infFile": "t5.inf",
-        "time": 1606412923720
+        "infFile": "t7.inf",
+        "time": 1606479554652
     },
     {
         "stepId": "STEP5",
         "stepName": "Image: SignOff Button",
-        "infFile": "t6.inf",
-        "time": 1606412923935
+        "infFile": "t8.inf",
+        "time": 1606479554935
     }
 ]
