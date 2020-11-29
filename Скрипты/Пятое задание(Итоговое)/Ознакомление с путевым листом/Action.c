@@ -51,6 +51,9 @@ Action()
 		"same-origin");
 	lr_end_transaction("1_getWebtours", LR_AUTO);
 	
+	lr_think_time(48);
+
+	
 	lr_start_transaction("2_login");
 
 	web_reg_find("Text=User password was correct",
@@ -71,6 +74,9 @@ Action()
 	
 	lr_end_transaction("2_login", LR_AUTO);
 	
+	lr_think_time(48);
+
+	
 	lr_start_transaction("3_Itinerary");
 
 	web_reg_find("Text=<!-- Flight #1 -->",
@@ -84,6 +90,9 @@ Action()
 	web_revert_auto_header("Sec-Fetch-User");
 	
 	lr_end_transaction("3_Itinerary", LR_AUTO);
+	
+	lr_think_time(48);
+
 	
 	lr_start_transaction("4_signoff");
 

@@ -1,9 +1,9 @@
-[parameter:randomString]
+[parameter:uniqueString]
 BlockSize="9999999"
 Format="%03d"
 GenerateNewVal="EachIteration"
 OriginalValue=""
 OutOfRangePolicy="ContinueWithLast"
-ParamName="randomString"
+ParamName="uniqueString"
 StartValue="111"
 Type="Unique"

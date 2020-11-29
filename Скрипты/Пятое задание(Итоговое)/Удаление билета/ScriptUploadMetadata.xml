@@ -33,6 +33,9 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0nD.409.log" Filter="1" />
+    <FileEntry Name="mdrv7Ij.787.log" Filter="1" />
+    <FileEntry Name="mdrv9Rz.965.log" Filter="1" />
     <FileEntry Name="mdrvKFP.693.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="name.dat" Filter="1" />

@@ -49,6 +49,9 @@ Action()
 	
 	lr_end_transaction("1_startWebtours", LR_AUTO);
 	
+	lr_think_time(45);
+
+	
 	lr_start_transaction("2_login");
 
 
@@ -74,7 +77,7 @@ Action()
 	lr_end_transaction("2_login", LR_AUTO);
 
 
-	lr_think_time(4);
+	lr_think_time(45);
 	
 	lr_start_transaction("3_searchFlights");
 
@@ -92,7 +95,7 @@ Action()
 	lr_end_transaction("3_searchFlights", LR_AUTO);
 
 
-	lr_think_time(5);
+	lr_think_time(45);
 	
 	lr_start_transaction("4_flightsParam");
 
@@ -125,7 +128,7 @@ Action()
 	lr_end_transaction("4_flightsParam", LR_AUTO);
 
 
-	lr_think_time(12);
+	lr_think_time(45);
 	
 	lr_start_transaction("5_selectFlight");
 
@@ -152,7 +155,7 @@ Action()
 	lr_end_transaction("5_selectFlight", LR_AUTO);
 
 
-	lr_think_time(7);
+	lr_think_time(45);
 	
 	lr_start_transaction("6_enterUserData");
 
@@ -183,7 +186,7 @@ Action()
 	lr_end_transaction("6_enterUserData", LR_AUTO);
 
 
-	lr_think_time(16);
+	lr_think_time(45);
 	
 	lr_start_transaction("7_checkFlights");
 
@@ -200,7 +203,6 @@ Action()
 
 	web_revert_auto_header("Sec-Fetch-User");
 
-	lr_think_time(10);
 	
 	lr_start_transaction("8_SignOff");
 

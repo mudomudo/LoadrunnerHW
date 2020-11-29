@@ -51,6 +51,9 @@ Action()
 		"same-origin");
 	
 	lr_end_transaction("1_startWebtours", LR_AUTO);
+	
+	lr_think_time(72);
+
 	lr_start_transaction("2_login");
 
 	web_reg_find("Text=User password was correct",
@@ -69,6 +72,9 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	lr_end_transaction("2_login", LR_AUTO);
+	
+	lr_think_time(72);
+
 	
 	lr_start_transaction("3_checkFlights");
 
@@ -105,7 +111,7 @@ Action()
 	lr_end_transaction("3_checkFlights", LR_AUTO);
 
 
-	lr_think_time(13);
+	lr_think_time(72);
 
 	
 	lr_start_transaction("4_cancelFlight");
@@ -144,7 +150,8 @@ Action()
 	web_add_header("Sec-Fetch-User", 
 		"?1");
 	
-	
+	lr_think_time(72);
+
 	
 	lr_start_transaction("5_signOff");
 

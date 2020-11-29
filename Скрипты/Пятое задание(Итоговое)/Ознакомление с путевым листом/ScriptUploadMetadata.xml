@@ -32,6 +32,7 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Ознакомление с путевым листом.c.pickle" Filter="1" />
     <FileEntry Name="Ознакомление с путевым листом.ci" Filter="1" />
+    <FileEntry Name="Ознакомление с путевым листом.prm.bak" Filter="1" />
     <FileEntry Name="Ознакомление с путевым листом.sdf" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

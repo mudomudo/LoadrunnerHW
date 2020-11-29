@@ -50,7 +50,7 @@ Action()
 	lr_end_transaction("1_startPage", LR_AUTO);
 
 
-	lr_think_time(15);
+	lr_think_time(92);
 	
 	lr_start_transaction("2_login");
 
@@ -90,7 +90,7 @@ Action()
 	lr_end_transaction("3_flightSearchButton", LR_AUTO);
 
 
-	lr_think_time(6);
+	lr_think_time(92);
 	
 	lr_start_transaction("4_searchParam");
 	
@@ -123,6 +123,9 @@ Action()
 	
 	lr_end_transaction("4_searchParam", LR_AUTO);
 	
+	lr_think_time(92);
+
+	
 	lr_start_transaction("5_selectFlight");
 	
 	web_reg_find("Text=<title>Flight Reservation</title>",
@@ -144,7 +147,7 @@ Action()
 	lr_end_transaction("5_selectFlight", LR_AUTO);
 
 
-	lr_think_time(12);
+	lr_think_time(92);
 	
 	lr_start_transaction("6_signOff");
 	

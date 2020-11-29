@@ -1,32 +1,32 @@
 [
     {
         "transactionName": "1_startWebtours",
-        "rawStartTime": 1606479553300,
-        "rawEndTime": 1606479553853
+        "rawStartTime": 1606673850452,
+        "rawEndTime": 1606673850911
     },
     {
         "transactionName": "2_login",
-        "rawStartTime": 1606479553869,
-        "rawEndTime": 1606479554166
+        "rawStartTime": 1606673850942,
+        "rawEndTime": 1606673851178
     },
     {
         "transactionName": "3_checkFlights",
-        "rawStartTime": 1606479554181,
-        "rawEndTime": 1606479554464
+        "rawStartTime": 1606673851210,
+        "rawEndTime": 1606673851490
     },
     {
         "transactionName": "4_cancelFlight",
-        "rawStartTime": 1606479554495,
-        "rawEndTime": 1606479554714
+        "rawStartTime": 1606673851521,
+        "rawEndTime": 1606673851691
     },
     {
         "transactionName": "5_signOff",
-        "rawStartTime": 1606479554761,
-        "rawEndTime": 1606479554950
+        "rawStartTime": 1606673851752,
+        "rawEndTime": 1606673851924
     },
     {
         "transactionName": "cancelFlight",
-        "rawStartTime": 1606479553283,
-        "rawEndTime": 1606479554965
+        "rawStartTime": 1606673850436,
+        "rawEndTime": 1606673851938
     }
 ]
